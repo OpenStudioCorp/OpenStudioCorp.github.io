@@ -2,12 +2,19 @@
 <html>
 	<head>
 		<title>OPENHUB</title>
+		<script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+		<script src="/JS/midi.js"></script>
 		<style>
-
 			body {
-				background-image: url(background.png);
+				background-image: url(../pngs/background.png);
 				background-repeat: repeat;
-				background-color: #323232;
+				background-color: #0c0a0a;
+			}
+
+			h1 {
+				color: #ffffff;
+				border: thick solid rgb(0, 255, 191);
+				text-align: center;
 			}
 
 			p {
@@ -22,19 +29,63 @@
 				font-size: 24px;
 			}
 
-			h1 {
-				color: #ffffff;
-				border: thick solid rgb(0, 255, 191);
-				text-align: center;
+			a {
+				display: block;
+				color: rgb(255, 255, 255);
+				margin-top: 1em;
+				font-size: 25px;
+			}
+
+			select {
+				display: block;
+				margin: auto;
+				font-size: 18px;
+			}
+			button {
+				display: block;
+				margin: auto;
+				font-size: 18px;
+			}
+
+			#my-container {
+				position: relative;
+				height: 500px;
+			}
+
+			#my-iframe {
+				position: absolute;
+				bottom: -100px;
+				left: 570px;
+				width: 30%;
+				height: 550px;
 			}
 		</style>
 	</head>
 	<body>
-		<img src="goofyaahbill.gif" alt="my pic" style="width: 108px; height: 130px; float:right;" id="img">
 		<h1>welcome to the OpenNBSVR website</h1>
 		<p>this website is styled after the 90s geocities pages</p>
-		<p>you can check out our newly made discord using this</p>
-		<p style="color: white;">NEWLY MADE SHINY 301 STAINLESS STEEL METAL DISCORD BOX</p>
-		<iframe src="https://discord.com/widget?id=1081010638110851172&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		<p>you can use the discord box to join the official discord server
+		<select id="bd1">
+			<option value="">Select a page to go to   </option>
+			<option value="html/about.html">about</option>
+			<option value="html/feature.html">Featured songs</option>
+			<option value="html/format.html">Format</option>
+			<!-- <option value="https://www.example.com/page2">Page 4</option>
+			<option value="https://www.example.com/page2">Page 5</option>
+			<option value="https://www.example.com/page2">Page 6</option>
+			<option value="https://www.example.com/page2">Page 7</option>
+			<option value="https://www.example.com/page2">Page 8</option>
+			<option value="https://www.example.com/page2">Page 9</option>
+			<option value="https://www.example.com/page3">Page 10</option> -->
+		  </select>
+		  
+		  <button onclick="goToPage()">Go</button>
+		  
+
+	
+
+		<div id="my-container">
+			<iframe id="my-iframe" src="https://discord.com/widget?id=1081010638110851172&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+		</div>
 	</body>
 </html>
