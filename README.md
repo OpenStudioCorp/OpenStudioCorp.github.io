@@ -1,5 +1,5 @@
 # opennbs-vr.github.io
-<!DOCTYPE html>
+![Open Note Block Studio logo](https://i.imgur.com/AMd0NBh.png)
 
 <html>
 
