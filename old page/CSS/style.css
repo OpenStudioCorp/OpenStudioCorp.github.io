@@ -1,0 +1,87 @@
+body {
+    background-image: url(../../images/bg.jpg);
+    background-repeat: repeat;
+    background-color: #0c0a0a;
+}
+
+h1 {
+    color: #ffffff;
+    border: thick solid rgb(0, 255, 191);
+    text-align: center;
+}
+
+p {
+    color: rgb(247, 247, 247);
+    text-align: center;
+    font-size: 24px;
+}
+
+p:first-child {
+    color: rgb(255, 0, 0);
+    text-align: right;
+    font-size: 24px;
+}
+
+a {
+    display: block;
+    color: rgb(255, 255, 255);
+    margin-top: 1em;
+    font-size: 25px;
+}
+
+select {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    font-size: 18px;
+}
+
+#my-container {
+    position: relative;
+    height: 500px;
+}
+
+iframe {
+    position: absolute;
+    display: block;
+    border-style: none;
+}
+
+div,
+iframe {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #777;
+}
+.btn-group button {
+    background-color: #04AA6D;
+    /* Green background */
+    border: 1px solid green;
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    width: 50%;
+    /* Set a width if needed */
+    display: block;
+    /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+    border-bottom: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
