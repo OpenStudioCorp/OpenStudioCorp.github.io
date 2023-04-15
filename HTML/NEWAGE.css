@@ -1,0 +1,57 @@
+/* include this as a stylesheet for NewAge */
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("NewAge.ttf");
+}
+
+@font-face {
+    font-family: "CoustomFont";
+    src: url("NewAge.ttf");
+}
+
+@font-face {
+    font-family: "Standard Galactic Alphabet";
+    src: url("NewAge.ttf");
+}
+
+
+/* fonts used for the NewAge galactic alphabet*/
+
+body,
+div,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+p {
+    font-family: "Liberation Sans";
+    font-size: x-small
+}
+
+a.comment-indicator:hover+comment {
+    background: #ffd;
+    position: absolute;
+    display: block;
+    border: 1px solid black;
+    padding: 0.5em;
+}
+
+a.comment-indicator {
+    background: red;
+    display: inline-block;
+    border: 1px solid black;
+    width: 0.5em;
+    height: 0.5em;
+}
+
+comment {
+    display: none;
+}
+
+omment {
+    display: none;
+}
