@@ -1,8 +1,7 @@
 import requests
 import json
 
-url = 'https://example.com/data.json'
-data = {'name': 'John', 'age': 30}
-headers = {'Content-type': 'application/json'}
-response = requests.post(url, data=json.dumps(data), headers=headers)
-print(response.status_code)
+url = 'https://openstudiocorp.github.io/opennbs-vr.github.io/repo.json'
+response = requests.get(url)
+data = json.loads(response.content)
+print(data)
