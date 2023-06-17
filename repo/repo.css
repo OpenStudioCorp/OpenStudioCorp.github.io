@@ -1,0 +1,46 @@
+    body{
+        background-color: #000;
+        color: #fff;
+        font-family: minecraft;
+        text-align: center;
+    }
+    p{
+        font-size: 20px;
+        color: #00ff00;
+    }
+    H1{
+        font-size: 40px;
+        color: #ffc368;
+    }
+    H2{
+        font-size: 30px;
+        color: #adb900;
+    }
+    H3{
+        font-size: 25px;
+        color: #1c851c;
+    }
+    H4{
+        font-size: 20px;
+        color: #4493a7;
+    }
+    H5{
+        font-size: 15px;
+        color: #5e4eb9;
+    }
+    H6{
+        font-size: 10px;
+        color: #ffffff;
+    }
+    .my-button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }

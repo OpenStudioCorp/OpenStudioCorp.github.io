@@ -31,6 +31,18 @@
         "name": "PythonicOS-Installer",
         "version": "0.0.1",
         "link": "https://github.com/OpenStudioCorp/PythonicOS-Installer"
+  },
+
+  {
+        "name": "Panno",
+        "version": "0.0.1",
+        "link": "https://github.com/charlie-sans/panno"
+  },
+  {
+    "name": "Panno",
+    "version": "0.0.1",
+    "link": "https://github.com/charlie-sans/panno"
   }
+
     ]
 }
