@@ -1,40 +1,58 @@
-    body{
+body{
         
-        color: #000000;
-        font-family: minecraft;
-        text-align: center;
-        background-color: #3c5479;        
+    color: #000000;
+    font-family: minecraft;
+    text-align: center;
+    background-color: #3c5479;        
+}
+p{
+    font-size: 20px;
+    color: #00ff00;
+}
+H1{
+    font-size: 40px;
+    color: #ffc368;
+}
+H2{
+    font-size: 30px;
+    color: #adb900;
+}
+H3{
+    font-size: 25px;
+    color: #1c851c;
+}
+H4{
+    font-size: 20px;
+    color: #4493a7;
+}
+H5{
+    font-size: 15px;
+    color: #00ffc8;
+    padding: 1px;
+}
+H6{
+    font-size: 10px;
+    color: #ffffff;
+}
+button {
+    background-color: #a7cc00; /* Green */
+    border: none; /* Remove borders */
+    color: rgb(0, 0, 0); /* White text */
+    padding: 5px 2px;   /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it into a block element */
+    font-size: 16px;    /* Increased font size */
+    margin: 4px 2px;   /* Add some margins */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+  label {
+    margin-left: 5px;
+  }
+    input {
+        margin-left: 5px;
     }
-    p{
-        font-size: 20px;
-        color: #00ff00;
-    }
-    H1{
-        font-size: 40px;
-        color: #ffc368;
-    }
-    H2{
-        font-size: 30px;
-        color: #adb900;
-    }
-    H3{
-        font-size: 25px;
-        color: #1c851c;
-    }
-    H4{
-        font-size: 20px;
-        color: #4493a7;
-    }
-    H5{
-        font-size: 15px;
-        color: #00ffc8;
-        padding: 1px;
-    }
-    H6{
-        font-size: 10px;
-        color: #ffffff;
-    }
-    button {
+    .button {
         background-color: #a7cc00; /* Green */
         border: none; /* Remove borders */
         color: rgb(0, 0, 0); /* White text */
@@ -46,180 +64,161 @@
         margin: 4px 2px;   /* Add some margins */
         cursor: pointer; /* Add a pointer on hover */
       }
-      label {
-        margin-left: 5px;
+      .button2 {
+        background-color: #a7cc00; /* Green */
+        border: none; /* Remove borders */
+        color: rgb(0, 0, 0); /* White text */
+        padding: 5px 2px;   /* Some padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make it into a block element */
+        font-size: 16px;    /* Increased font size */
+        margin: 4px 2px;   /* Add some margins */
+        cursor: pointer; /* Add a pointer on hover */
       }
-        input {
-            margin-left: 5px;
+      .button3 {
+        background-color: #a7cc00; /* Green */
+        border: none; /* Remove borders */
+        color: rgb(0, 0, 0); /* White text */
+        padding: 5px 2px;   /* Some padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block; /* Make it into a block element */
+        font-size: 16px;    /* Increased font size */
+        margin: 4px 2px;   /* Add some margins */
+        cursor: pointer; /* Add a pointer on hover */
+      }
+      .button4 {
+        background-color: #a7cc00; /* Green */
+        border: none; /* Remove borders */
+        color: rgb(0, 0, 0); /* White text */
+        padding: 5px 2px;   /* Some padding */
+        text-align: center; /* Centered text */
+        text-decoration: none; /* Remove underline */
+        display: inline-block;
+        font-size: 16px;    /* Increased font size */
+        margin: 4px 2px;   /* Add some margins */
+        cursor: pointer; /* Add a pointer on hover */
         }
-        .button {
-            background-color: #a7cc00; /* Green */
-            border: none; /* Remove borders */
-            color: rgb(0, 0, 0); /* White text */
-            padding: 5px 2px;   /* Some padding */
-            text-align: center; /* Centered text */
-            text-decoration: none; /* Remove underline */
-            display: inline-block; /* Make it into a block element */
-            font-size: 16px;    /* Increased font size */
-            margin: 4px 2px;   /* Add some margins */
-            cursor: pointer; /* Add a pointer on hover */
-          }
-          .button2 {
-            background-color: #a7cc00; /* Green */
-            border: none; /* Remove borders */
-            color: rgb(0, 0, 0); /* White text */
-            padding: 5px 2px;   /* Some padding */
-            text-align: center; /* Centered text */
-            text-decoration: none; /* Remove underline */
-            display: inline-block; /* Make it into a block element */
-            font-size: 16px;    /* Increased font size */
-            margin: 4px 2px;   /* Add some margins */
-            cursor: pointer; /* Add a pointer on hover */
-          }
-          .button3 {
-            background-color: #a7cc00; /* Green */
-            border: none; /* Remove borders */
-            color: rgb(0, 0, 0); /* White text */
-            padding: 5px 2px;   /* Some padding */
-            text-align: center; /* Centered text */
-            text-decoration: none; /* Remove underline */
-            display: inline-block; /* Make it into a block element */
-            font-size: 16px;    /* Increased font size */
-            margin: 4px 2px;   /* Add some margins */
-            cursor: pointer; /* Add a pointer on hover */
-          }
-          .button4 {
-            background-color: #a7cc00; /* Green */
-            border: none; /* Remove borders */
-            color: rgb(0, 0, 0); /* White text */
-            padding: 5px 2px;   /* Some padding */
-            text-align: center; /* Centered text */
-            text-decoration: none; /* Remove underline */
-            display: inline-block;
-            font-size: 16px;    /* Increased font size */
-            margin: 4px 2px;   /* Add some margins */
-            cursor: pointer; /* Add a pointer on hover */
-            }
 p1{
-    font-size: 20px;
-    color: #00ff00;
-    padding: 1px;
+font-size: 20px;
+color: #00ff00;
+padding: 1px;
 }
 p2{
-    font-size: 20px;
-    color: #5e84ff;
-    padding: 1px;
+font-size: 20px;
+color: #5e84ff;
+padding: 1px;
 }
 p3{
-    font-size: 20px;
-    color: #00f7ff;
-    padding: 1px;
+font-size: 20px;
+color: #00f7ff;
+padding: 1px;
 }
 p4{
-    font-size: 20px;
-    color: #ffbc05;
-    padding: 1px;
+font-size: 20px;
+color: #ffbc05;
+padding: 1px;
 }
 p5{
-    font-size: 20px;
-    padding: 1px;
-    color: #ea00ff;
+font-size: 20px;
+padding: 1px;
+color: #ea00ff;
 }
 
 ;
 .hero {
-  background-color: #0040C1;
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  font-family: "Montserrat", sans-serif;
+background-color: #0040C1;
+position: relative;
+height: 100vh;
+overflow: hidden;
+font-family: "Montserrat", sans-serif;
 }
 
 .hero__title {
-  color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  z-index: 1;
+color: #fff;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 50px;
+z-index: 1;
 }
 
 .cube {
-  position: absolute;
-  top: 80vh;
-  left: 45vw;
-  width: 10px;
-  height: 10px;
-  background-image: url(../wowie_1.gif);
-    background-size: cover;
-    
-  border: solid 0.5px #000000;
-  transform-origin: top left;
-  transform: scale(0) rotate(0deg) translate(-50%, -50%);
-  -webkit-animation: cube 12s ease-in forwards infinite;
-          animation: cube 12s ease-in forwards infinite;
+position: absolute;
+top: 80vh;
+left: 45vw;
+width: 10px;
+height: 10px;
+background-image: url(../wowie_1.gif);
+background-size: cover;
+
+border: solid 0.5px #000000;
+transform-origin: top left;
+transform: scale(0) rotate(0deg) translate(-50%, -50%);
+-webkit-animation: cube 12s ease-in forwards infinite;
+      animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #ff4848;
+border-color: #ff4848;
 }
 .cube:nth-child(2) {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  left: 25vw;
-  top: 40vh;
-  border-color: #ff9b9b;
+-webkit-animation-delay: 2s;
+      animation-delay: 2s;
+left: 25vw;
+top: 40vh;
+border-color: #ff9b9b;
 }
 .cube:nth-child(3) {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-  left: 75vw;
-  top: 50vh;
-  border-color: #2ead43;
+-webkit-animation-delay: 4s;
+      animation-delay: 4s;
+left: 75vw;
+top: 50vh;
+border-color: #2ead43;
 }
 .cube:nth-child(4) {
-  -webkit-animation-delay: 6s;
-          animation-delay: 6s;
-  left: 90vw;
-  top: 10vh;
-  border-color: #48ffb9;
+-webkit-animation-delay: 6s;
+      animation-delay: 6s;
+left: 90vw;
+top: 10vh;
+border-color: #48ffb9;
 }
 .cube:nth-child(5) {
-  -webkit-animation-delay: 8s;
-          animation-delay: 8s;
-  left: 10vw;
-  top: 85vh;
-  border-color: #727272;
+-webkit-animation-delay: 8s;
+      animation-delay: 8s;
+left: 10vw;
+top: 85vh;
+border-color: #727272;
 }
 .cube:nth-child(6) {
-  -webkit-animation-delay: 10s;
-          animation-delay: 10s;
-  left: 50vw;
-  top: 10vh;
-  border-color: #7f48ff;
+-webkit-animation-delay: 10s;
+      animation-delay: 10s;
+left: 50vw;
+top: 10vh;
+border-color: #7f48ff;
 }
 
 @-webkit-keyframes cube {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
+from {
+transform: scale(0) rotate(0deg) translate(-50%, -50%);
+opacity: 1;
+}
+to {
+transform: scale(20) rotate(960deg) translate(-50%, -50%);
+opacity: 0;
+}
 }
 
 @keyframes cube {
-  from {
-    transform: scale(0) rotate(0deg) translate(-50%, -50%);
-    opacity: 1;
-  }
-  to {
-    transform: scale(20) rotate(960deg) translate(-50%, -50%);
-    opacity: 0;
-  }
+from {
+transform: scale(0) rotate(0deg) translate(-50%, -50%);
+opacity: 1;
 }
-
+to {
+transform: scale(20) rotate(960deg) translate(-50%, -50%);
+opacity: 0;
+}
+}
 
 
